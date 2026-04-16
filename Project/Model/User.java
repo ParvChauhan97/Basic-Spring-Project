@@ -16,10 +16,4 @@ public class User {
     public String getEmail() {
         return Email;
     }
-
-    User(int id, String name, String Email) {
-        this.id = id;
-        this.name = name;
-        this.Email = Email;
-    }
 }
