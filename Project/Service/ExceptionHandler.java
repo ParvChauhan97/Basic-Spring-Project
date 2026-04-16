@@ -9,7 +9,6 @@ import java.util.Map;
 
 @RestControllerAdvice
 public class ExceptionHandler {
-
    @org.springframework.web.bind.annotation.ExceptionHandler(NullPointerException.class)
     public ResponseEntity<Map<String, Object>> ResponseException(Exception exception) {
         Map<String, Object> exp = new HashMap<>();
